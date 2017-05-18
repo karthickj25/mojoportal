@@ -1699,6 +1699,7 @@
     <Compile Include="Controllers\FileManager\FileManagerController.cs" />
     <Compile Include="Controllers\FileManager\FileServiceController.cs" />
     <Compile Include="Controllers\FileManager\FileUploadController.cs" />
+    <Compile Include="Controllers\RazorPartialBridge.cs" />
     <Compile Include="Controls\Adapters\SiteMapTreeViewAdapter.cs" />
     <Compile Include="Controls\Analytics\AnalyticsAsyncBottomScript.cs" />
     <Compile Include="Controls\Analytics\AnalyticsAsyncTopScript.cs" />
@@ -3101,6 +3102,7 @@
     </Compile>
     <Compile Include="Models\FileManager.cs" />
     <Compile Include="Models\FileService.cs" />
+    <Compile Include="Models\PartialViewModel.cs" />
     <Compile Include="Modules\ChildPageSiteMapModule.ascx.cs">
       <DependentUpon>ChildPageSiteMapModule.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3576,6 +3578,7 @@
     <Content Include="Services\SiteMapJson.ashx" />
     <Content Include="Views\FileManager\Pages.cshtml" />
     <Content Include="Views\FileManager\_FileManagerLayout.cshtml" />
+    <Content Include="Views\Shared\_Partial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Services\FriendlyUrlSuggestXml.aspx" />
